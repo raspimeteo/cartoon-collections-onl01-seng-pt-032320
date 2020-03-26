@@ -5,10 +5,8 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  first_step = []
-  second_step = []
-  first_step = array.map{|arr| arr.capitalize()}
-  
+  array.map{|arr| arr.capitalize()}
+  puts array
 end
 
 def long_planeteer_calls# code an argument here
